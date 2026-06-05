@@ -74,3 +74,33 @@ def place_limit_sell_order(
 
     logger.info(f"Sell order response: {data}")
     return data
+
+def get_tick_size(price: int) -> int:
+    if price < 2000:
+        return 1
+    if price < 5000:
+        return 5
+    if price < 20000:
+        return 10
+    if price < 50000:
+        return 50
+    if price < 200000:
+        return 100
+    if price < 500000:
+        return 500
+    return 1000
+
+
+def adjust_price_to_tick(price: int, direction: str) -> int:
+    tick = get_tick_size(price)
+
+    if direction == "down":
+        return price - (price % tick)
+
+    if direction == "up":
+        remainder = price % tick
+        if remainder == 0:
+            return price
+        return price + (tick - remainder)
+
+    raise ValueError("direction must be 'down' or 'up'")
