@@ -227,8 +227,7 @@ Korea-Investment-Auto-Trading-System/
 ├── trader.py
 ├── logger.py
 ├── requirements.txt
-├── .gitignore
-└── README.md
+└──.gitignore
 ```
 
 ---
