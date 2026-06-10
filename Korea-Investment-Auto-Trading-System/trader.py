@@ -1,26 +1,19 @@
 import time
 from datetime import datetime, time as dt_time
 
-from auth import get_access_token
+from account import get_account_balance, get_samsung_holding_quantity
 from api_client import KisApiClient
-from market_data import get_current_price
-from account import (
-    get_account_balance,
-    get_samsung_holding_quantity,
-    has_pending_order,
-)
-from orders import (
-    place_limit_buy_order,
-    place_limit_sell_order,
-    adjust_price_to_tick,
-)
+from auth import get_access_token
 from config import (
     BUY_OFFSET,
     SELL_OFFSET,
     POLL_INTERVAL_SECONDS,
+    ORDER_CHECK_DELAY_SECONDS,
     MAX_CONSECUTIVE_ERRORS,
 )
 from logger import get_logger
+from market_data import get_current_price
+from orders import place_limit_buy_order, place_limit_sell_order, adjust_price_to_tick
 
 
 logger = get_logger(__name__)
@@ -46,38 +39,30 @@ class SamsungAutoTrader:
 
     def run_once(self) -> None:
         if not is_trading_time():
-            logger.info("Outside trading window. No order will be placed.")
-            print("현재는 거래 시간이 아니라 주문하지 않음.")
+            logger.info("Outside trading time. Skip this cycle.")
             return
 
+        # 1. 현재가 조회
         try:
             current_price = get_current_price(self.client)
             logger.info(f"Current price: {current_price}")
         except Exception as e:
-            logger.error(f"Failed to get current price. Skip this cycle. Error: {e}")
+            logger.error(f"Failed to get current price. Error: {e}")
             self.consecutive_errors += 1
             return
 
+        # 2. 잔고 / 보유수량 조회
         try:
-            before_balance = get_account_balance(self.client)
-            before_qty = get_samsung_holding_quantity(before_balance)
+            balance = get_account_balance(self.client)
+            holding_qty = get_samsung_holding_quantity(balance)
+            logger.info(f"Samsung quantity before order: {holding_qty}")
         except Exception as e:
-            logger.error(f"Failed to get account balance. Skip this cycle. Error: {e}")
+            logger.error(f"Failed to check balance before order. Error: {e}")
             self.consecutive_errors += 1
             return
 
-        logger.info(f"Samsung quantity before order: {before_qty}")
 
-        try:
-            if has_pending_order(self.client):
-                logger.info("Pending order exists. Skip this cycle to avoid duplicate orders.")
-                self.consecutive_errors = 0
-                return
-        except Exception as e:
-                logger.error(f"Failed to check pending orders. Skip this cycle. Error: {e}")
-                self.consecutive_errors += 1
-                return
-
+        # 3. 주문 가격 계산
         raw_buy_price = current_price - BUY_OFFSET
         raw_sell_price = current_price + SELL_OFFSET
 
@@ -87,40 +72,46 @@ class SamsungAutoTrader:
         logger.info(f"Adjusted buy price: {buy_price}")
         logger.info(f"Adjusted sell price: {sell_price}")
 
-        try:
-            buy_result = place_limit_buy_order(
-                client=self.client,
-                price=buy_price,
-                quantity=1,
-            )
-        except Exception as e:
-            logger.error(f"Buy order request failed. Skip this cycle. Error: {e}")
-            self.consecutive_errors += 1
-            return
+        # 4. 보유수량이 0이면 매수만 실행
+        if holding_qty <= 0:
+            logger.info("No Samsung shares. Submit buy order only.")
 
-        if is_order_success(buy_result):
+            try:
+                buy_result = place_limit_buy_order(
+                    client=self.client,
+                    price=buy_price,
+                    quantity=1,
+                )
+                logger.info(f"Buy order response: {buy_result}")
+            except Exception as e:
+                logger.error(f"Buy order request failed. Error: {e}")
+                self.consecutive_errors += 1
+                return
+
+            if not is_order_success(buy_result):
+                logger.warning(f"Buy order failed or rejected: {buy_result}")
+                self.consecutive_errors = 0
+                return
+
             logger.info("Buy order submitted successfully.")
-            time.sleep(5)
+
+            # 주문 후 잔고 재조회
+            time.sleep(ORDER_CHECK_DELAY_SECONDS)
 
             try:
                 after_buy_balance = get_account_balance(self.client)
                 after_buy_qty = get_samsung_holding_quantity(after_buy_balance)
+                logger.info(f"Samsung quantity after buy order: {after_buy_qty}")
             except Exception as e:
                 logger.error(f"Failed to check balance after buy order. Error: {e}")
                 self.consecutive_errors += 1
                 return
 
-            logger.info(f"Samsung quantity after buy order: {after_buy_qty}")
-        else:
-            logger.warning(f"Buy order failed or rejected: {buy_result}")
             self.consecutive_errors = 0
             return
 
-        # 보유 수량이 없으면 매도 주문은 넣지 않음
-        if after_buy_qty <= 0:
-            logger.info("No Samsung shares available. Sell order skipped.")
-            self.consecutive_errors = 0
-            return
+        # 5. 보유수량이 있으면 매수는 하지 않고 매도만 실행
+        logger.info("Already holding Samsung shares. Buy order skipped. Submit sell order only.")
 
         try:
             sell_result = place_limit_sell_order(
@@ -128,28 +119,32 @@ class SamsungAutoTrader:
                 price=sell_price,
                 quantity=1,
             )
+            logger.info(f"Sell order response: {sell_result}")
         except Exception as e:
             logger.error(f"Sell order request failed. Error: {e}")
             self.consecutive_errors += 1
             return
 
-        if is_order_success(sell_result):
-            logger.info("Sell order submitted successfully.")
-            time.sleep(5)
-
-            try:
-                after_sell_balance = get_account_balance(self.client)
-                after_sell_qty = get_samsung_holding_quantity(after_sell_balance)
-            except Exception as e:
-                logger.error(f"Failed to check balance after sell order. Error: {e}")
-                self.consecutive_errors += 1
-                return
-
-            logger.info(f"Samsung quantity after sell order: {after_sell_qty}")
-            self.consecutive_errors = 0
-        else:
+        if not is_order_success(sell_result):
             logger.warning(f"Sell order failed or rejected: {sell_result}")
             self.consecutive_errors = 0
+            return
+
+        logger.info("Sell order submitted successfully.")
+
+        # 주문 후 잔고 재조회
+        time.sleep(ORDER_CHECK_DELAY_SECONDS)
+
+        try:
+            after_sell_balance = get_account_balance(self.client)
+            after_sell_qty = get_samsung_holding_quantity(after_sell_balance)
+            logger.info(f"Samsung quantity after sell order: {after_sell_qty}")
+        except Exception as e:
+            logger.error(f"Failed to check balance after sell order. Error: {e}")
+            self.consecutive_errors += 1
+            return
+
+        self.consecutive_errors = 0
 
     def run(self) -> None:
         logger.info("Auto trader started.")
