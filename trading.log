@@ -1,0 +1,582 @@
+2026-06-11 09:02:00,212 | INFO | Requesting new access token
+2026-06-11 09:02:00,954 | INFO | Saved new access token to token_cache.json
+2026-06-11 09:02:00,971 | INFO | Auto trader started.
+2026-06-11 09:02:00,972 | INFO | Waiting for trading window...
+2026-06-11 09:03:00,973 | INFO | Waiting for trading window...
+2026-06-11 09:04:00,976 | INFO | Waiting for trading window...
+2026-06-11 09:05:00,981 | INFO | Waiting for trading window...
+2026-06-11 09:06:00,984 | INFO | Waiting for trading window...
+2026-06-11 09:07:00,985 | INFO | Waiting for trading window...
+2026-06-11 09:07:49,459 | INFO | Reusing cached access token
+2026-06-11 09:07:49,459 | INFO | Auto trader started.
+2026-06-11 09:07:49,459 | INFO | Waiting for trading window...
+2026-06-11 09:08:49,460 | INFO | Waiting for trading window...
+2026-06-11 09:09:15,700 | INFO | Requesting new access token
+2026-06-11 09:09:17,149 | INFO | Saved new access token to token_cache.json
+2026-06-11 09:09:17,151 | INFO | Auto trader started.
+2026-06-11 09:09:17,151 | INFO | Waiting for trading window...
+2026-06-11 09:10:19,150 | INFO | Current price for 005930: 289000
+2026-06-11 09:10:19,151 | INFO | Current price: 289000
+2026-06-11 09:10:23,235 | INFO | Holdings count: 0
+2026-06-11 09:10:23,239 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10000000', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '0', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '0', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10000000', 'nass_amt': '10000000', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '0', 'asst_icdc_erng_rt': '0.00000000'}]
+2026-06-11 09:10:23,241 | INFO | Samsung quantity before order: 0
+2026-06-11 09:10:23,243 | INFO | Adjusted buy price: 288000
+2026-06-11 09:10:23,245 | INFO | Adjusted sell price: 290000
+2026-06-11 09:10:23,247 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 09:10:23,248 | INFO | Buy order request | stock=005930, price=288000, qty=1
+2026-06-11 09:10:26,927 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000004126', 'ORD_TMD': '091026'}}
+2026-06-11 09:10:26,928 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000004126', 'ORD_TMD': '091026'}}
+2026-06-11 09:10:26,928 | INFO | Buy order submitted successfully.
+2026-06-11 09:11:00,405 | INFO | Holdings count: 0
+2026-06-11 09:11:00,406 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10000000', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '0', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '0', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10000000', 'nass_amt': '10000000', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '0', 'asst_icdc_erng_rt': '0.00000000'}]
+2026-06-11 09:11:00,406 | INFO | Samsung quantity after buy order: 0
+2026-06-11 09:11:00,406 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 09:21:02,521 | INFO | Current price for 005930: 295500
+2026-06-11 09:21:02,522 | INFO | Current price: 295500
+2026-06-11 09:21:07,378 | INFO | Holdings count: 0
+2026-06-11 09:21:07,378 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10000000', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '0', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '0', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10000000', 'nass_amt': '10000000', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '0', 'asst_icdc_erng_rt': '0.00000000'}]
+2026-06-11 09:21:07,379 | INFO | Samsung quantity before order: 0
+2026-06-11 09:21:07,379 | INFO | Adjusted buy price: 294500
+2026-06-11 09:21:07,379 | INFO | Adjusted sell price: 296500
+2026-06-11 09:21:07,380 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 09:21:07,394 | INFO | Buy order request | stock=005930, price=294500, qty=1
+2026-06-11 09:21:09,073 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000005915', 'ORD_TMD': '092108'}}
+2026-06-11 09:21:09,074 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000005915', 'ORD_TMD': '092108'}}
+2026-06-11 09:21:09,074 | INFO | Buy order submitted successfully.
+2026-06-11 09:21:41,845 | INFO | Holdings count: 1
+2026-06-11 09:21:41,846 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9705460', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '294500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '40', 'tot_loan_amt': '0', 'scts_evlu_amt': '296000', 'tot_evlu_amt': '10001460', 'nass_amt': '10001460', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '294500', 'evlu_amt_smtl_amt': '296000', 'evlu_pfls_smtl_amt': '1500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '1460', 'asst_icdc_erng_rt': '0.01460000'}]
+2026-06-11 09:21:41,846 | INFO | Samsung quantity after buy order: 1
+2026-06-11 09:21:41,846 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 09:31:42,389 | INFO | Current price for 005930: 293500
+2026-06-11 09:31:42,390 | INFO | Current price: 293500
+2026-06-11 09:31:42,957 | ERROR | GET error response | status=500 | body={"rt_cd":"1","msg1":"초당 거래건수를 초과하였습니다.","msg_cd":"EGW00201","message":"EGW00201"}
+2026-06-11 09:31:42,959 | ERROR | GET request failed | attempt=1/3 | url=https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/trading/inquire-balance | error=500 Server Error: Internal Server Error for url: https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/trading/inquire-balance?CANO=50192631&ACNT_PRDT_CD=01&AFHR_FLPR_YN=N&OFL_YN=&INQR_DVSN=02&UNPR_DVSN=01&FUND_STTL_ICLD_YN=N&FNCG_AMT_AUTO_RDPT_YN=N&PRCS_DVSN=01&CTX_AREA_FK100=&CTX_AREA_NK100=
+2026-06-11 09:31:42,960 | INFO | Retrying GET request after 3 seconds...
+2026-06-11 09:31:50,722 | INFO | Holdings count: 1
+2026-06-11 09:31:50,723 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9705460', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '294500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '40', 'tot_loan_amt': '0', 'scts_evlu_amt': '294500', 'tot_evlu_amt': '9999960', 'nass_amt': '9999960', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '294500', 'evlu_amt_smtl_amt': '294500', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '-40', 'asst_icdc_erng_rt': '-0.00040000'}]
+2026-06-11 09:31:50,723 | INFO | Samsung quantity before order: 1
+2026-06-11 09:31:50,723 | INFO | Adjusted buy price: 292500
+2026-06-11 09:31:50,724 | INFO | Adjusted sell price: 294500
+2026-06-11 09:31:50,724 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 09:31:50,724 | INFO | Sell order request | stock=005930, price=294500, qty=1
+2026-06-11 09:31:52,258 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000007324', 'ORD_TMD': '093152'}}
+2026-06-11 09:31:52,259 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000007324', 'ORD_TMD': '093152'}}
+2026-06-11 09:31:52,259 | INFO | Sell order submitted successfully.
+2026-06-11 09:32:27,956 | INFO | Holdings count: 0
+2026-06-11 09:32:27,957 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9999332', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '294500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '294500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '668', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '9999332', 'nass_amt': '9999332', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '-668', 'asst_icdc_erng_rt': '-0.00668000'}]
+2026-06-11 09:32:27,957 | INFO | Samsung quantity after sell order: 0
+2026-06-11 09:32:27,958 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 09:42:29,705 | INFO | Current price for 005930: 293000
+2026-06-11 09:42:29,706 | INFO | Current price: 293000
+2026-06-11 09:42:32,467 | INFO | Holdings count: 0
+2026-06-11 09:42:32,468 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9999332', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '294500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '294500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '668', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '9999332', 'nass_amt': '9999332', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '-668', 'asst_icdc_erng_rt': '-0.00668000'}]
+2026-06-11 09:42:32,468 | INFO | Samsung quantity before order: 0
+2026-06-11 09:42:32,468 | INFO | Adjusted buy price: 292000
+2026-06-11 09:42:32,469 | INFO | Adjusted sell price: 294000
+2026-06-11 09:42:32,469 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 09:42:32,469 | INFO | Buy order request | stock=005930, price=292000, qty=1
+2026-06-11 09:42:33,073 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000008634', 'ORD_TMD': '094233'}}
+2026-06-11 09:42:33,074 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000008634', 'ORD_TMD': '094233'}}
+2026-06-11 09:42:33,075 | INFO | Buy order submitted successfully.
+2026-06-11 09:43:09,025 | INFO | Holdings count: 1
+2026-06-11 09:43:09,026 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9707292', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '586500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '294500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '708', 'tot_loan_amt': '0', 'scts_evlu_amt': '293000', 'tot_evlu_amt': '10000292', 'nass_amt': '10000292', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '292000', 'evlu_amt_smtl_amt': '293000', 'evlu_pfls_smtl_amt': '1000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '292', 'asst_icdc_erng_rt': '0.00292000'}]
+2026-06-11 09:43:09,026 | INFO | Samsung quantity after buy order: 1
+2026-06-11 09:43:09,026 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 09:53:12,679 | INFO | Current price for 005930: 296000
+2026-06-11 09:53:12,679 | INFO | Current price: 296000
+2026-06-11 09:53:16,572 | INFO | Holdings count: 1
+2026-06-11 09:53:16,572 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9707292', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '586500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '294500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '708', 'tot_loan_amt': '0', 'scts_evlu_amt': '296000', 'tot_evlu_amt': '10003292', 'nass_amt': '10003292', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '292000', 'evlu_amt_smtl_amt': '296000', 'evlu_pfls_smtl_amt': '4000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3292', 'asst_icdc_erng_rt': '0.03292000'}]
+2026-06-11 09:53:16,573 | INFO | Samsung quantity before order: 1
+2026-06-11 09:53:16,573 | INFO | Adjusted buy price: 295000
+2026-06-11 09:53:16,574 | INFO | Adjusted sell price: 297000
+2026-06-11 09:53:16,574 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 09:53:16,574 | INFO | Sell order request | stock=005930, price=297000, qty=1
+2026-06-11 09:53:17,353 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000009902', 'ORD_TMD': '095317'}}
+2026-06-11 09:53:17,354 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000009902', 'ORD_TMD': '095317'}}
+2026-06-11 09:53:17,354 | INFO | Sell order submitted successfully.
+2026-06-11 09:53:52,617 | INFO | Holdings count: 0
+2026-06-11 09:53:52,617 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10003658', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '586500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '591500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '1342', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10003658', 'nass_amt': '10003658', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3658', 'asst_icdc_erng_rt': '0.03658000'}]
+2026-06-11 09:53:52,618 | INFO | Samsung quantity after sell order: 0
+2026-06-11 09:53:52,618 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 10:03:53,626 | INFO | Current price for 005930: 300500
+2026-06-11 10:03:53,626 | INFO | Current price: 300500
+2026-06-11 10:03:58,421 | INFO | Holdings count: 0
+2026-06-11 10:03:58,422 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10003658', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '586500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '591500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '1342', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10003658', 'nass_amt': '10003658', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3658', 'asst_icdc_erng_rt': '0.03658000'}]
+2026-06-11 10:03:58,436 | INFO | Samsung quantity before order: 0
+2026-06-11 10:03:58,437 | INFO | Adjusted buy price: 299500
+2026-06-11 10:03:58,437 | INFO | Adjusted sell price: 301500
+2026-06-11 10:03:58,437 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 10:03:58,437 | INFO | Buy order request | stock=005930, price=299500, qty=1
+2026-06-11 10:03:59,042 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000011292', 'ORD_TMD': '100359'}}
+2026-06-11 10:03:59,043 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000011292', 'ORD_TMD': '100359'}}
+2026-06-11 10:03:59,043 | INFO | Buy order submitted successfully.
+2026-06-11 10:04:32,827 | INFO | Holdings count: 0
+2026-06-11 10:04:32,828 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10003658', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '586500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '591500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '1342', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10003658', 'nass_amt': '10003658', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3658', 'asst_icdc_erng_rt': '0.03658000'}]
+2026-06-11 10:04:32,828 | INFO | Samsung quantity after buy order: 0
+2026-06-11 10:04:32,829 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 10:14:33,657 | INFO | Current price for 005930: 305500
+2026-06-11 10:14:33,657 | INFO | Current price: 305500
+2026-06-11 10:14:41,399 | INFO | Holdings count: 0
+2026-06-11 10:14:41,400 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10003658', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '586500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '591500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '1342', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10003658', 'nass_amt': '10003658', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3658', 'asst_icdc_erng_rt': '0.03658000'}]
+2026-06-11 10:14:41,400 | INFO | Samsung quantity before order: 0
+2026-06-11 10:14:41,401 | INFO | Adjusted buy price: 304500
+2026-06-11 10:14:41,401 | INFO | Adjusted sell price: 306500
+2026-06-11 10:14:41,401 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 10:14:41,402 | INFO | Buy order request | stock=005930, price=304500, qty=1
+2026-06-11 10:14:42,000 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000012646', 'ORD_TMD': '101441'}}
+2026-06-11 10:14:42,001 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000012646', 'ORD_TMD': '101441'}}
+2026-06-11 10:14:42,001 | INFO | Buy order submitted successfully.
+2026-06-11 10:15:18,261 | INFO | Holdings count: 1
+2026-06-11 10:15:18,276 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9699118', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '891000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '591500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '1382', 'tot_loan_amt': '0', 'scts_evlu_amt': '305500', 'tot_evlu_amt': '10004618', 'nass_amt': '10004618', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '304500', 'evlu_amt_smtl_amt': '305500', 'evlu_pfls_smtl_amt': '1000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4618', 'asst_icdc_erng_rt': '0.04618000'}]
+2026-06-11 10:15:18,277 | INFO | Samsung quantity after buy order: 1
+2026-06-11 10:15:18,277 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 10:25:18,944 | INFO | Current price for 005930: 302500
+2026-06-11 10:25:18,944 | INFO | Current price: 302500
+2026-06-11 10:25:22,836 | INFO | Holdings count: 1
+2026-06-11 10:25:22,836 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9399578', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1190500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '591500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '1422', 'tot_loan_amt': '0', 'scts_evlu_amt': '606000', 'tot_evlu_amt': '10005578', 'nass_amt': '10005578', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '604000', 'evlu_amt_smtl_amt': '606000', 'evlu_pfls_smtl_amt': '2000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '5578', 'asst_icdc_erng_rt': '0.05578000'}]
+2026-06-11 10:25:22,837 | INFO | Samsung quantity before order: 2
+2026-06-11 10:25:22,837 | INFO | Adjusted buy price: 301500
+2026-06-11 10:25:22,837 | INFO | Adjusted sell price: 303500
+2026-06-11 10:25:22,838 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 10:25:22,838 | INFO | Sell order request | stock=005930, price=303500, qty=1
+2026-06-11 10:25:26,523 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000013891', 'ORD_TMD': '102526'}}
+2026-06-11 10:25:26,523 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000013891', 'ORD_TMD': '102526'}}
+2026-06-11 10:25:26,523 | INFO | Sell order submitted successfully.
+2026-06-11 10:25:59,702 | INFO | Holdings count: 1
+2026-06-11 10:25:59,702 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9399578', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1190500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '591500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '1422', 'tot_loan_amt': '0', 'scts_evlu_amt': '604000', 'tot_evlu_amt': '10003578', 'nass_amt': '10003578', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '604000', 'evlu_amt_smtl_amt': '604000', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3578', 'asst_icdc_erng_rt': '0.03578000'}]
+2026-06-11 10:25:59,703 | INFO | Samsung quantity after sell order: 2
+2026-06-11 10:25:59,703 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 10:36:01,818 | INFO | Current price for 005930: 302500
+2026-06-11 10:36:01,819 | INFO | Current price: 302500
+2026-06-11 10:36:07,346 | INFO | Holdings count: 1
+2026-06-11 10:36:07,347 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9702431', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1190500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '895000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '2069', 'tot_loan_amt': '0', 'scts_evlu_amt': '302500', 'tot_evlu_amt': '10004931', 'nass_amt': '10004931', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '302000', 'evlu_amt_smtl_amt': '302500', 'evlu_pfls_smtl_amt': '500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4931', 'asst_icdc_erng_rt': '0.04931000'}]
+2026-06-11 10:36:07,347 | INFO | Samsung quantity before order: 1
+2026-06-11 10:36:07,347 | INFO | Adjusted buy price: 301500
+2026-06-11 10:36:07,347 | INFO | Adjusted sell price: 303500
+2026-06-11 10:36:07,347 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 10:36:07,348 | INFO | Sell order request | stock=005930, price=303500, qty=1
+2026-06-11 10:36:08,577 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000014861', 'ORD_TMD': '103608'}}
+2026-06-11 10:36:08,578 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000014861', 'ORD_TMD': '103608'}}
+2026-06-11 10:36:08,579 | INFO | Sell order submitted successfully.
+2026-06-11 10:36:42,983 | INFO | Holdings count: 1
+2026-06-11 10:36:42,984 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9702431', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1190500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '895000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '2069', 'tot_loan_amt': '0', 'scts_evlu_amt': '302500', 'tot_evlu_amt': '10004931', 'nass_amt': '10004931', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '302000', 'evlu_amt_smtl_amt': '302500', 'evlu_pfls_smtl_amt': '500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4931', 'asst_icdc_erng_rt': '0.04931000'}]
+2026-06-11 10:36:42,984 | INFO | Samsung quantity after sell order: 1
+2026-06-11 10:36:42,985 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 10:46:43,557 | INFO | Current price for 005930: 304250
+2026-06-11 10:46:43,557 | INFO | Current price: 304250
+2026-06-11 10:46:50,324 | INFO | Holdings count: 0
+2026-06-11 10:46:50,325 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10005274', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1190500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1198500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '2726', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10005274', 'nass_amt': '10005274', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '5274', 'asst_icdc_erng_rt': '0.05274000'}]
+2026-06-11 10:46:50,325 | INFO | Samsung quantity before order: 0
+2026-06-11 10:46:50,325 | INFO | Adjusted buy price: 303000
+2026-06-11 10:46:50,326 | INFO | Adjusted sell price: 305500
+2026-06-11 10:46:50,326 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 10:46:50,326 | INFO | Buy order request | stock=005930, price=303000, qty=1
+2026-06-11 10:46:50,906 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000015743', 'ORD_TMD': '104650'}}
+2026-06-11 10:46:50,906 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000015743', 'ORD_TMD': '104650'}}
+2026-06-11 10:46:50,906 | INFO | Buy order submitted successfully.
+2026-06-11 10:47:27,187 | INFO | Holdings count: 0
+2026-06-11 10:47:27,187 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10005274', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1190500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1198500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '2726', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10005274', 'nass_amt': '10005274', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '5274', 'asst_icdc_erng_rt': '0.05274000'}]
+2026-06-11 10:47:27,187 | INFO | Samsung quantity after buy order: 0
+2026-06-11 10:47:27,187 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 10:57:27,823 | INFO | Current price for 005930: 300500
+2026-06-11 10:57:27,824 | INFO | Current price: 300500
+2026-06-11 10:57:33,300 | INFO | Holdings count: 1
+2026-06-11 10:57:33,300 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9702224', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1493500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1198500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '2776', 'tot_loan_amt': '0', 'scts_evlu_amt': '301000', 'tot_evlu_amt': '10003224', 'nass_amt': '10003224', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '303000', 'evlu_amt_smtl_amt': '301000', 'evlu_pfls_smtl_amt': '-2000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3224', 'asst_icdc_erng_rt': '0.03224000'}]
+2026-06-11 10:57:33,301 | INFO | Samsung quantity before order: 1
+2026-06-11 10:57:33,301 | INFO | Adjusted buy price: 299500
+2026-06-11 10:57:33,301 | INFO | Adjusted sell price: 301500
+2026-06-11 10:57:33,302 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 10:57:33,302 | INFO | Sell order request | stock=005930, price=301500, qty=1
+2026-06-11 10:57:34,835 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000016669', 'ORD_TMD': '105734'}}
+2026-06-11 10:57:34,835 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000016669', 'ORD_TMD': '105734'}}
+2026-06-11 10:57:34,835 | INFO | Sell order submitted successfully.
+2026-06-11 10:58:10,370 | INFO | Holdings count: 0
+2026-06-11 10:58:10,370 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10003080', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1493500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1500000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '3420', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10003080', 'nass_amt': '10003080', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3080', 'asst_icdc_erng_rt': '0.03080000'}]
+2026-06-11 10:58:10,371 | INFO | Samsung quantity after sell order: 0
+2026-06-11 10:58:10,371 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 11:08:10,949 | INFO | Current price for 005930: 300750
+2026-06-11 11:08:10,949 | INFO | Current price: 300750
+2026-06-11 11:08:15,661 | INFO | Holdings count: 0
+2026-06-11 11:08:15,662 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10003080', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1493500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1500000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '3420', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10003080', 'nass_amt': '10003080', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3080', 'asst_icdc_erng_rt': '0.03080000'}]
+2026-06-11 11:08:15,662 | INFO | Samsung quantity before order: 0
+2026-06-11 11:08:15,663 | INFO | Adjusted buy price: 299500
+2026-06-11 11:08:15,663 | INFO | Adjusted sell price: 302000
+2026-06-11 11:08:15,663 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 11:08:15,663 | INFO | Buy order request | stock=005930, price=299500, qty=1
+2026-06-11 11:08:16,229 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000017629', 'ORD_TMD': '110816'}}
+2026-06-11 11:08:16,230 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000017629', 'ORD_TMD': '110816'}}
+2026-06-11 11:08:16,230 | INFO | Buy order submitted successfully.
+2026-06-11 11:08:50,991 | INFO | Holdings count: 0
+2026-06-11 11:08:50,992 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10003080', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1493500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1500000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '3420', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10003080', 'nass_amt': '10003080', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3080', 'asst_icdc_erng_rt': '0.03080000'}]
+2026-06-11 11:08:50,992 | INFO | Samsung quantity after buy order: 0
+2026-06-11 11:08:50,992 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 11:18:54,189 | INFO | Current price for 005930: 297500
+2026-06-11 11:18:54,189 | INFO | Current price: 297500
+2026-06-11 11:19:01,402 | INFO | Holdings count: 1
+2026-06-11 11:19:01,403 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9703540', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1793000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1500000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '3460', 'tot_loan_amt': '0', 'scts_evlu_amt': '297250', 'tot_evlu_amt': '10000790', 'nass_amt': '10000790', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299500', 'evlu_amt_smtl_amt': '297250', 'evlu_pfls_smtl_amt': '-2250', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '790', 'asst_icdc_erng_rt': '0.00790000'}]
+2026-06-11 11:19:01,403 | INFO | Samsung quantity before order: 1
+2026-06-11 11:19:01,403 | INFO | Adjusted buy price: 296500
+2026-06-11 11:19:01,404 | INFO | Adjusted sell price: 298500
+2026-06-11 11:19:01,404 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 11:19:01,404 | INFO | Sell order request | stock=005930, price=298500, qty=1
+2026-06-11 11:19:05,700 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000018563', 'ORD_TMD': '111905'}}
+2026-06-11 11:19:05,701 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000018563', 'ORD_TMD': '111905'}}
+2026-06-11 11:19:05,701 | INFO | Sell order submitted successfully.
+2026-06-11 11:19:39,188 | INFO | Holdings count: 1
+2026-06-11 11:19:39,189 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9703540', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1793000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1500000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '3460', 'tot_loan_amt': '0', 'scts_evlu_amt': '297000', 'tot_evlu_amt': '10000540', 'nass_amt': '10000540', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299500', 'evlu_amt_smtl_amt': '297000', 'evlu_pfls_smtl_amt': '-2500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '540', 'asst_icdc_erng_rt': '0.00540000'}]
+2026-06-11 11:19:39,189 | INFO | Samsung quantity after sell order: 1
+2026-06-11 11:19:39,189 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 11:29:39,711 | INFO | Current price for 005930: 295500
+2026-06-11 11:29:39,711 | INFO | Current price: 295500
+2026-06-11 11:29:42,841 | INFO | Holdings count: 1
+2026-06-11 11:29:42,842 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9703540', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1793000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1500000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '3460', 'tot_loan_amt': '0', 'scts_evlu_amt': '295500', 'tot_evlu_amt': '9999040', 'nass_amt': '9999040', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299500', 'evlu_amt_smtl_amt': '295500', 'evlu_pfls_smtl_amt': '-4000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '-960', 'asst_icdc_erng_rt': '-0.00960000'}]
+2026-06-11 11:29:42,842 | INFO | Samsung quantity before order: 1
+2026-06-11 11:29:42,842 | INFO | Adjusted buy price: 294500
+2026-06-11 11:29:42,842 | INFO | Adjusted sell price: 296500
+2026-06-11 11:29:42,843 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 11:29:42,843 | INFO | Sell order request | stock=005930, price=296500, qty=1
+2026-06-11 11:29:43,371 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 11:29:43,371 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 11:29:43,372 | WARNING | Sell order failed or rejected: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 11:29:43,373 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 11:39:43,900 | INFO | Current price for 005930: 297000
+2026-06-11 11:39:43,901 | INFO | Current price: 297000
+2026-06-11 11:39:51,104 | INFO | Holdings count: 1
+2026-06-11 11:39:51,104 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9703540', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1793000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1500000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '3460', 'tot_loan_amt': '0', 'scts_evlu_amt': '296500', 'tot_evlu_amt': '10000040', 'nass_amt': '10000040', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299500', 'evlu_amt_smtl_amt': '296500', 'evlu_pfls_smtl_amt': '-3000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '40', 'asst_icdc_erng_rt': '0.00040000'}]
+2026-06-11 11:39:51,105 | INFO | Samsung quantity before order: 1
+2026-06-11 11:39:51,105 | INFO | Adjusted buy price: 296000
+2026-06-11 11:39:51,105 | INFO | Adjusted sell price: 298000
+2026-06-11 11:39:51,105 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 11:39:51,106 | INFO | Sell order request | stock=005930, price=298000, qty=1
+2026-06-11 11:39:51,658 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 11:39:51,659 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 11:39:51,659 | WARNING | Sell order failed or rejected: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 11:39:51,659 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 11:49:52,191 | INFO | Current price for 005930: 296500
+2026-06-11 11:49:52,191 | INFO | Current price: 296500
+2026-06-11 11:49:58,136 | INFO | Holdings count: 1
+2026-06-11 11:49:58,137 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9703540', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1793000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1500000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '3460', 'tot_loan_amt': '0', 'scts_evlu_amt': '296500', 'tot_evlu_amt': '10000040', 'nass_amt': '10000040', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299500', 'evlu_amt_smtl_amt': '296500', 'evlu_pfls_smtl_amt': '-3000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '40', 'asst_icdc_erng_rt': '0.00040000'}]
+2026-06-11 11:49:58,137 | INFO | Samsung quantity before order: 1
+2026-06-11 11:49:58,138 | INFO | Adjusted buy price: 295500
+2026-06-11 11:49:58,138 | INFO | Adjusted sell price: 297500
+2026-06-11 11:49:58,138 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 11:49:58,139 | INFO | Sell order request | stock=005930, price=297500, qty=1
+2026-06-11 11:49:58,753 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 11:49:58,753 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 11:49:58,754 | WARNING | Sell order failed or rejected: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 11:49:58,754 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 11:59:59,603 | INFO | Current price for 005930: 298000
+2026-06-11 11:59:59,603 | INFO | Current price: 298000
+2026-06-11 12:00:09,325 | INFO | Holdings count: 0
+2026-06-11 12:00:09,326 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10001404', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1793000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1798500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4096', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10001404', 'nass_amt': '10001404', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '1404', 'asst_icdc_erng_rt': '0.01404000'}]
+2026-06-11 12:00:09,326 | INFO | Samsung quantity before order: 0
+2026-06-11 12:00:09,326 | INFO | Adjusted buy price: 297000
+2026-06-11 12:00:09,327 | INFO | Adjusted sell price: 299000
+2026-06-11 12:00:09,327 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 12:00:09,327 | INFO | Buy order request | stock=005930, price=297000, qty=1
+2026-06-11 12:00:17,483 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000021381', 'ORD_TMD': '120017'}}
+2026-06-11 12:00:17,483 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000021381', 'ORD_TMD': '120017'}}
+2026-06-11 12:00:17,483 | INFO | Buy order submitted successfully.
+2026-06-11 12:00:52,785 | INFO | Holdings count: 0
+2026-06-11 12:00:52,785 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10001404', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '1793000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1798500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4096', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10001404', 'nass_amt': '10001404', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '1404', 'asst_icdc_erng_rt': '0.01404000'}]
+2026-06-11 12:00:52,785 | INFO | Samsung quantity after buy order: 0
+2026-06-11 12:00:52,786 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 12:10:56,439 | INFO | Current price for 005930: 296000
+2026-06-11 12:10:56,439 | INFO | Current price: 296000
+2026-06-11 12:11:00,435 | INFO | Holdings count: 1
+2026-06-11 12:11:00,435 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9704364', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2090000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1798500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4136', 'tot_loan_amt': '0', 'scts_evlu_amt': '296500', 'tot_evlu_amt': '10000864', 'nass_amt': '10000864', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '297000', 'evlu_amt_smtl_amt': '296500', 'evlu_pfls_smtl_amt': '-500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '864', 'asst_icdc_erng_rt': '0.00864000'}]
+2026-06-11 12:11:00,436 | INFO | Samsung quantity before order: 1
+2026-06-11 12:11:00,436 | INFO | Adjusted buy price: 295000
+2026-06-11 12:11:00,436 | INFO | Adjusted sell price: 297000
+2026-06-11 12:11:00,437 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 12:11:00,437 | INFO | Sell order request | stock=005930, price=297000, qty=1
+2026-06-11 12:11:02,278 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000022087', 'ORD_TMD': '121102'}}
+2026-06-11 12:11:02,279 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000022087', 'ORD_TMD': '121102'}}
+2026-06-11 12:11:02,279 | INFO | Sell order submitted successfully.
+2026-06-11 12:11:38,832 | INFO | Holdings count: 1
+2026-06-11 12:11:38,832 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9704364', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2090000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1798500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4136', 'tot_loan_amt': '0', 'scts_evlu_amt': '295750', 'tot_evlu_amt': '10000114', 'nass_amt': '10000114', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '297000', 'evlu_amt_smtl_amt': '295750', 'evlu_pfls_smtl_amt': '-1250', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '114', 'asst_icdc_erng_rt': '0.00114000'}]
+2026-06-11 12:11:38,832 | INFO | Samsung quantity after sell order: 1
+2026-06-11 12:11:38,832 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 12:21:40,714 | INFO | Current price for 005930: 295250
+2026-06-11 12:21:40,714 | INFO | Current price: 295250
+2026-06-11 12:21:45,867 | INFO | Holdings count: 1
+2026-06-11 12:21:45,867 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9704364', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2090000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '1798500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4136', 'tot_loan_amt': '0', 'scts_evlu_amt': '295000', 'tot_evlu_amt': '9999364', 'nass_amt': '9999364', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '297000', 'evlu_amt_smtl_amt': '295000', 'evlu_pfls_smtl_amt': '-2000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '-636', 'asst_icdc_erng_rt': '-0.00636000'}]
+2026-06-11 12:21:45,868 | INFO | Samsung quantity before order: 1
+2026-06-11 12:21:45,868 | INFO | Adjusted buy price: 294000
+2026-06-11 12:21:45,869 | INFO | Adjusted sell price: 296500
+2026-06-11 12:21:45,869 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 12:21:45,869 | INFO | Sell order request | stock=005930, price=296500, qty=1
+2026-06-11 12:21:46,686 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 12:21:46,687 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 12:21:46,687 | WARNING | Sell order failed or rejected: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 12:21:46,688 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 12:31:47,367 | INFO | Current price for 005930: 296500
+2026-06-11 12:31:47,367 | INFO | Current price: 296500
+2026-06-11 12:31:47,909 | ERROR | GET error response | status=500 | body={"rt_cd":"1","msg1":"초당 거래건수를 초과하였습니다.","msg_cd":"EGW00201","message":"EGW00201"}
+2026-06-11 12:31:47,910 | ERROR | GET request failed | attempt=1/3 | url=https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/trading/inquire-balance | error=500 Server Error: Internal Server Error for url: https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/trading/inquire-balance?CANO=50192631&ACNT_PRDT_CD=01&AFHR_FLPR_YN=N&OFL_YN=&INQR_DVSN=02&UNPR_DVSN=01&FUND_STTL_ICLD_YN=N&FNCG_AMT_AUTO_RDPT_YN=N&PRCS_DVSN=01&CTX_AREA_FK100=&CTX_AREA_NK100=
+2026-06-11 12:31:47,911 | INFO | Retrying GET request after 3 seconds...
+2026-06-11 12:31:54,130 | INFO | Holdings count: 0
+2026-06-11 12:31:54,131 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10000730', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2090000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2095500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4770', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10000730', 'nass_amt': '10000730', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '730', 'asst_icdc_erng_rt': '0.00730000'}]
+2026-06-11 12:31:54,131 | INFO | Samsung quantity before order: 0
+2026-06-11 12:31:54,131 | INFO | Adjusted buy price: 295500
+2026-06-11 12:31:54,132 | INFO | Adjusted sell price: 297500
+2026-06-11 12:31:54,132 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 12:31:54,132 | INFO | Buy order request | stock=005930, price=295500, qty=1
+2026-06-11 12:31:56,892 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000023371', 'ORD_TMD': '123156'}}
+2026-06-11 12:31:56,893 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000023371', 'ORD_TMD': '123156'}}
+2026-06-11 12:31:56,893 | INFO | Buy order submitted successfully.
+2026-06-11 12:32:33,757 | INFO | Holdings count: 0
+2026-06-11 12:32:33,758 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10000730', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2090000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2095500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4770', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10000730', 'nass_amt': '10000730', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '730', 'asst_icdc_erng_rt': '0.00730000'}]
+2026-06-11 12:32:33,758 | INFO | Samsung quantity after buy order: 0
+2026-06-11 12:32:33,758 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 12:42:34,353 | INFO | Current price for 005930: 298000
+2026-06-11 12:42:34,354 | INFO | Current price: 298000
+2026-06-11 12:42:43,554 | INFO | Holdings count: 0
+2026-06-11 12:42:43,555 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10000730', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2090000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2095500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4770', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10000730', 'nass_amt': '10000730', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '730', 'asst_icdc_erng_rt': '0.00730000'}]
+2026-06-11 12:42:43,555 | INFO | Samsung quantity before order: 0
+2026-06-11 12:42:43,555 | INFO | Adjusted buy price: 297000
+2026-06-11 12:42:43,556 | INFO | Adjusted sell price: 299000
+2026-06-11 12:42:43,556 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 12:42:43,556 | INFO | Buy order request | stock=005930, price=297000, qty=1
+2026-06-11 12:42:44,218 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000024168', 'ORD_TMD': '124244'}}
+2026-06-11 12:42:44,218 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000024168', 'ORD_TMD': '124244'}}
+2026-06-11 12:42:44,219 | INFO | Buy order submitted successfully.
+2026-06-11 12:43:23,080 | INFO | Holdings count: 0
+2026-06-11 12:43:23,081 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10000730', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2090000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2095500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4770', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10000730', 'nass_amt': '10000730', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '730', 'asst_icdc_erng_rt': '0.00730000'}]
+2026-06-11 12:43:23,081 | INFO | Samsung quantity after buy order: 0
+2026-06-11 12:43:23,081 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 12:53:23,768 | INFO | Current price for 005930: 298000
+2026-06-11 12:53:23,768 | INFO | Current price: 298000
+2026-06-11 12:53:27,453 | INFO | Holdings count: 1
+2026-06-11 12:53:27,454 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9703690', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2387000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2095500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4810', 'tot_loan_amt': '0', 'scts_evlu_amt': '298500', 'tot_evlu_amt': '10002190', 'nass_amt': '10002190', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '297000', 'evlu_amt_smtl_amt': '298500', 'evlu_pfls_smtl_amt': '1500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '2190', 'asst_icdc_erng_rt': '0.02190000'}]
+2026-06-11 12:53:27,454 | INFO | Samsung quantity before order: 1
+2026-06-11 12:53:27,455 | INFO | Adjusted buy price: 297000
+2026-06-11 12:53:27,455 | INFO | Adjusted sell price: 299000
+2026-06-11 12:53:27,455 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 12:53:27,455 | INFO | Sell order request | stock=005930, price=299000, qty=1
+2026-06-11 12:53:30,421 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000024888', 'ORD_TMD': '125330'}}
+2026-06-11 12:53:30,422 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000024888', 'ORD_TMD': '125330'}}
+2026-06-11 12:53:30,422 | INFO | Sell order submitted successfully.
+2026-06-11 12:54:04,316 | INFO | Holdings count: 1
+2026-06-11 12:54:04,317 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9703690', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2387000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2095500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '4810', 'tot_loan_amt': '0', 'scts_evlu_amt': '298500', 'tot_evlu_amt': '10002190', 'nass_amt': '10002190', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '297000', 'evlu_amt_smtl_amt': '298500', 'evlu_pfls_smtl_amt': '1500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '2190', 'asst_icdc_erng_rt': '0.02190000'}]
+2026-06-11 12:54:04,317 | INFO | Samsung quantity after sell order: 1
+2026-06-11 12:54:04,318 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 13:04:06,436 | INFO | Current price for 005930: 299000
+2026-06-11 13:04:06,437 | INFO | Current price: 299000
+2026-06-11 13:04:12,887 | INFO | Holdings count: 0
+2026-06-11 13:04:12,887 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10002042', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2387000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2394500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '5458', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10002042', 'nass_amt': '10002042', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '2042', 'asst_icdc_erng_rt': '0.02042000'}]
+2026-06-11 13:04:12,888 | INFO | Samsung quantity before order: 0
+2026-06-11 13:04:12,888 | INFO | Adjusted buy price: 298000
+2026-06-11 13:04:12,888 | INFO | Adjusted sell price: 300000
+2026-06-11 13:04:12,889 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 13:04:12,889 | INFO | Buy order request | stock=005930, price=298000, qty=1
+2026-06-11 13:04:13,858 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000025642', 'ORD_TMD': '130413'}}
+2026-06-11 13:04:13,858 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000025642', 'ORD_TMD': '130413'}}
+2026-06-11 13:04:13,859 | INFO | Buy order submitted successfully.
+2026-06-11 13:04:52,209 | INFO | Holdings count: 0
+2026-06-11 13:04:52,210 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10002042', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2387000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2394500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '5458', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10002042', 'nass_amt': '10002042', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '2042', 'asst_icdc_erng_rt': '0.02042000'}]
+2026-06-11 13:04:52,210 | INFO | Samsung quantity after buy order: 0
+2026-06-11 13:04:52,211 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 13:14:56,476 | INFO | Current price for 005930: 299000
+2026-06-11 13:14:56,477 | INFO | Current price: 299000
+2026-06-11 13:15:03,542 | INFO | Holdings count: 0
+2026-06-11 13:15:03,542 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10002042', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2387000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2394500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '5458', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10002042', 'nass_amt': '10002042', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '2042', 'asst_icdc_erng_rt': '0.02042000'}]
+2026-06-11 13:15:03,543 | INFO | Samsung quantity before order: 0
+2026-06-11 13:15:03,543 | INFO | Adjusted buy price: 298000
+2026-06-11 13:15:03,543 | INFO | Adjusted sell price: 300000
+2026-06-11 13:15:03,544 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 13:15:03,544 | INFO | Buy order request | stock=005930, price=298000, qty=1
+2026-06-11 13:15:04,136 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000026429', 'ORD_TMD': '131504'}}
+2026-06-11 13:15:04,136 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000026429', 'ORD_TMD': '131504'}}
+2026-06-11 13:15:04,136 | INFO | Buy order submitted successfully.
+2026-06-11 13:15:38,091 | INFO | Holdings count: 0
+2026-06-11 13:15:38,092 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10002042', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2387000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2394500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '5458', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10002042', 'nass_amt': '10002042', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '2042', 'asst_icdc_erng_rt': '0.02042000'}]
+2026-06-11 13:15:38,092 | INFO | Samsung quantity after buy order: 0
+2026-06-11 13:15:38,092 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 13:25:43,161 | INFO | Current price for 005930: 298500
+2026-06-11 13:25:43,161 | INFO | Current price: 298500
+2026-06-11 13:25:48,566 | INFO | Holdings count: 1
+2026-06-11 13:25:48,567 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9405952', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2983000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2394500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '5548', 'tot_loan_amt': '0', 'scts_evlu_amt': '598000', 'tot_evlu_amt': '10003952', 'nass_amt': '10003952', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '596000', 'evlu_amt_smtl_amt': '598000', 'evlu_pfls_smtl_amt': '2000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3952', 'asst_icdc_erng_rt': '0.03952000'}]
+2026-06-11 13:25:48,568 | INFO | Samsung quantity before order: 2
+2026-06-11 13:25:48,568 | INFO | Adjusted buy price: 297500
+2026-06-11 13:25:48,568 | INFO | Adjusted sell price: 299500
+2026-06-11 13:25:48,569 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 13:25:48,570 | INFO | Sell order request | stock=005930, price=299500, qty=1
+2026-06-11 13:25:49,385 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000027232', 'ORD_TMD': '132549'}}
+2026-06-11 13:25:49,386 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000027232', 'ORD_TMD': '132549'}}
+2026-06-11 13:25:49,386 | INFO | Sell order submitted successfully.
+2026-06-11 13:26:28,298 | INFO | Holdings count: 1
+2026-06-11 13:26:28,299 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9405952', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2983000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2394500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '5548', 'tot_loan_amt': '0', 'scts_evlu_amt': '598000', 'tot_evlu_amt': '10003952', 'nass_amt': '10003952', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '596000', 'evlu_amt_smtl_amt': '598000', 'evlu_pfls_smtl_amt': '2000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3952', 'asst_icdc_erng_rt': '0.03952000'}]
+2026-06-11 13:26:28,300 | INFO | Samsung quantity after sell order: 2
+2026-06-11 13:26:28,300 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 13:36:30,621 | INFO | Current price for 005930: 299000
+2026-06-11 13:36:30,621 | INFO | Current price: 299000
+2026-06-11 13:36:35,945 | INFO | Holdings count: 1
+2026-06-11 13:36:35,945 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9704812', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2983000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2694000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '6188', 'tot_loan_amt': '0', 'scts_evlu_amt': '299000', 'tot_evlu_amt': '10003812', 'nass_amt': '10003812', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '298000', 'evlu_amt_smtl_amt': '299000', 'evlu_pfls_smtl_amt': '1000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3812', 'asst_icdc_erng_rt': '0.03812000'}]
+2026-06-11 13:36:35,945 | INFO | Samsung quantity before order: 1
+2026-06-11 13:36:35,946 | INFO | Adjusted buy price: 298000
+2026-06-11 13:36:35,946 | INFO | Adjusted sell price: 300000
+2026-06-11 13:36:35,946 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 13:36:35,946 | INFO | Sell order request | stock=005930, price=300000, qty=1
+2026-06-11 13:36:36,765 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000028037', 'ORD_TMD': '133636'}}
+2026-06-11 13:36:36,766 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000028037', 'ORD_TMD': '133636'}}
+2026-06-11 13:36:36,766 | INFO | Sell order submitted successfully.
+2026-06-11 13:37:14,039 | INFO | Holdings count: 1
+2026-06-11 13:37:14,040 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9704812', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2983000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2694000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '6188', 'tot_loan_amt': '0', 'scts_evlu_amt': '298750', 'tot_evlu_amt': '10003562', 'nass_amt': '10003562', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '298000', 'evlu_amt_smtl_amt': '298750', 'evlu_pfls_smtl_amt': '750', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3562', 'asst_icdc_erng_rt': '0.03562000'}]
+2026-06-11 13:37:14,041 | INFO | Samsung quantity after sell order: 1
+2026-06-11 13:37:14,041 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 13:47:17,387 | INFO | Current price for 005930: 301000
+2026-06-11 13:47:17,387 | INFO | Current price: 301000
+2026-06-11 13:47:24,913 | INFO | Holdings count: 0
+2026-06-11 13:47:24,913 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10004172', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2983000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2994000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '6828', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10004172', 'nass_amt': '10004172', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4172', 'asst_icdc_erng_rt': '0.04172000'}]
+2026-06-11 13:47:24,914 | INFO | Samsung quantity before order: 0
+2026-06-11 13:47:24,914 | INFO | Adjusted buy price: 300000
+2026-06-11 13:47:24,915 | INFO | Adjusted sell price: 302000
+2026-06-11 13:47:24,915 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 13:47:24,915 | INFO | Buy order request | stock=005930, price=300000, qty=1
+2026-06-11 13:47:27,114 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000028814', 'ORD_TMD': '134727'}}
+2026-06-11 13:47:27,115 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000028814', 'ORD_TMD': '134727'}}
+2026-06-11 13:47:27,115 | INFO | Buy order submitted successfully.
+2026-06-11 13:48:05,924 | INFO | Holdings count: 0
+2026-06-11 13:48:05,924 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10004172', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '2983000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2994000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '6828', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10004172', 'nass_amt': '10004172', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4172', 'asst_icdc_erng_rt': '0.04172000'}]
+2026-06-11 13:48:05,924 | INFO | Samsung quantity after buy order: 0
+2026-06-11 13:48:05,925 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 13:58:09,783 | INFO | Current price for 005930: 300000
+2026-06-11 13:58:09,784 | INFO | Current price: 300000
+2026-06-11 13:58:17,251 | INFO | Holdings count: 1
+2026-06-11 13:58:17,251 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9704132', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3283000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2994000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '6868', 'tot_loan_amt': '0', 'scts_evlu_amt': '299500', 'tot_evlu_amt': '10003632', 'nass_amt': '10003632', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '300000', 'evlu_amt_smtl_amt': '299500', 'evlu_pfls_smtl_amt': '-500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3632', 'asst_icdc_erng_rt': '0.03632000'}]
+2026-06-11 13:58:17,251 | INFO | Samsung quantity before order: 1
+2026-06-11 13:58:17,252 | INFO | Adjusted buy price: 299000
+2026-06-11 13:58:17,252 | INFO | Adjusted sell price: 301000
+2026-06-11 13:58:17,252 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 13:58:17,252 | INFO | Sell order request | stock=005930, price=301000, qty=1
+2026-06-11 13:58:21,250 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000029642', 'ORD_TMD': '135821'}}
+2026-06-11 13:58:21,251 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000029642', 'ORD_TMD': '135821'}}
+2026-06-11 13:58:21,251 | INFO | Sell order submitted successfully.
+2026-06-11 13:58:57,808 | INFO | Holdings count: 1
+2026-06-11 13:58:57,808 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9704132', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3283000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '2994000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '6868', 'tot_loan_amt': '0', 'scts_evlu_amt': '299500', 'tot_evlu_amt': '10003632', 'nass_amt': '10003632', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '300000', 'evlu_amt_smtl_amt': '299500', 'evlu_pfls_smtl_amt': '-500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3632', 'asst_icdc_erng_rt': '0.03632000'}]
+2026-06-11 13:58:57,808 | INFO | Samsung quantity after sell order: 1
+2026-06-11 13:58:57,809 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 14:08:59,619 | INFO | Current price for 005930: 300000
+2026-06-11 14:08:59,619 | INFO | Current price: 300000
+2026-06-11 14:09:07,614 | INFO | Holdings count: 0
+2026-06-11 14:09:07,615 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10004491', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3283000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3295000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '7509', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10004491', 'nass_amt': '10004491', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4491', 'asst_icdc_erng_rt': '0.04491000'}]
+2026-06-11 14:09:07,615 | INFO | Samsung quantity before order: 0
+2026-06-11 14:09:07,615 | INFO | Adjusted buy price: 299000
+2026-06-11 14:09:07,616 | INFO | Adjusted sell price: 301000
+2026-06-11 14:09:07,616 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 14:09:07,616 | INFO | Buy order request | stock=005930, price=299000, qty=1
+2026-06-11 14:09:10,681 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000030669', 'ORD_TMD': '140910'}}
+2026-06-11 14:09:10,681 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000030669', 'ORD_TMD': '140910'}}
+2026-06-11 14:09:10,681 | INFO | Buy order submitted successfully.
+2026-06-11 14:09:50,002 | INFO | Holdings count: 0
+2026-06-11 14:09:50,002 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10004491', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3283000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3295000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '7509', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10004491', 'nass_amt': '10004491', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4491', 'asst_icdc_erng_rt': '0.04491000'}]
+2026-06-11 14:09:50,003 | INFO | Samsung quantity after buy order: 0
+2026-06-11 14:09:50,003 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 14:19:50,633 | INFO | Current price for 005930: 298750
+2026-06-11 14:19:50,634 | INFO | Current price: 298750
+2026-06-11 14:19:53,591 | INFO | Holdings count: 1
+2026-06-11 14:19:53,591 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9705451', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3582000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3295000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '7549', 'tot_loan_amt': '0', 'scts_evlu_amt': '298750', 'tot_evlu_amt': '10004201', 'nass_amt': '10004201', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299000', 'evlu_amt_smtl_amt': '298750', 'evlu_pfls_smtl_amt': '-250', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4201', 'asst_icdc_erng_rt': '0.04201000'}]
+2026-06-11 14:19:53,592 | INFO | Samsung quantity before order: 1
+2026-06-11 14:19:53,592 | INFO | Adjusted buy price: 297500
+2026-06-11 14:19:53,592 | INFO | Adjusted sell price: 300000
+2026-06-11 14:19:53,592 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 14:19:53,593 | INFO | Sell order request | stock=005930, price=300000, qty=1
+2026-06-11 14:19:57,343 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000031403', 'ORD_TMD': '141957'}}
+2026-06-11 14:19:57,344 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000031403', 'ORD_TMD': '141957'}}
+2026-06-11 14:19:57,344 | INFO | Sell order submitted successfully.
+2026-06-11 14:20:34,207 | INFO | Holdings count: 1
+2026-06-11 14:20:34,208 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9705451', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3582000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3295000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '7549', 'tot_loan_amt': '0', 'scts_evlu_amt': '298750', 'tot_evlu_amt': '10004201', 'nass_amt': '10004201', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299000', 'evlu_amt_smtl_amt': '298750', 'evlu_pfls_smtl_amt': '-250', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4201', 'asst_icdc_erng_rt': '0.04201000'}]
+2026-06-11 14:20:34,208 | INFO | Samsung quantity after sell order: 1
+2026-06-11 14:20:34,209 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 14:30:41,240 | INFO | Current price for 005930: 297500
+2026-06-11 14:30:41,241 | INFO | Current price: 297500
+2026-06-11 14:30:51,070 | INFO | Holdings count: 0
+2026-06-11 14:30:51,071 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10004801', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3582000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3595000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '8199', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10004801', 'nass_amt': '10004801', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4801', 'asst_icdc_erng_rt': '0.04801000'}]
+2026-06-11 14:30:51,071 | INFO | Samsung quantity before order: 0
+2026-06-11 14:30:51,071 | INFO | Adjusted buy price: 296500
+2026-06-11 14:30:51,072 | INFO | Adjusted sell price: 298500
+2026-06-11 14:30:51,072 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 14:30:51,072 | INFO | Buy order request | stock=005930, price=296500, qty=1
+2026-06-11 14:30:55,985 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000032151', 'ORD_TMD': '143056'}}
+2026-06-11 14:30:55,985 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000032151', 'ORD_TMD': '143056'}}
+2026-06-11 14:30:55,986 | INFO | Buy order submitted successfully.
+2026-06-11 14:31:32,542 | INFO | Holdings count: 0
+2026-06-11 14:31:32,542 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10004801', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3582000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3595000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '8199', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10004801', 'nass_amt': '10004801', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4801', 'asst_icdc_erng_rt': '0.04801000'}]
+2026-06-11 14:31:32,542 | INFO | Samsung quantity after buy order: 0
+2026-06-11 14:31:32,543 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 14:41:34,660 | INFO | Current price for 005930: 300500
+2026-06-11 14:41:34,661 | INFO | Current price: 300500
+2026-06-11 14:41:39,995 | INFO | Holdings count: 0
+2026-06-11 14:41:39,996 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '10004801', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3582000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3595000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '8199', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '10004801', 'nass_amt': '10004801', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4801', 'asst_icdc_erng_rt': '0.04801000'}]
+2026-06-11 14:41:39,996 | INFO | Samsung quantity before order: 0
+2026-06-11 14:41:39,996 | INFO | Adjusted buy price: 299500
+2026-06-11 14:41:39,997 | INFO | Adjusted sell price: 301500
+2026-06-11 14:41:39,997 | INFO | No Samsung shares. Submit buy order only.
+2026-06-11 14:41:39,997 | INFO | Buy order request | stock=005930, price=299500, qty=1
+2026-06-11 14:41:40,803 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000032852', 'ORD_TMD': '144140'}}
+2026-06-11 14:41:40,803 | INFO | Buy order response: {'rt_cd': '0', 'msg_cd': '40600000', 'msg1': '모의투자 매수주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000032852', 'ORD_TMD': '144140'}}
+2026-06-11 14:41:40,803 | INFO | Buy order submitted successfully.
+2026-06-11 14:42:19,512 | INFO | Holdings count: 1
+2026-06-11 14:42:19,513 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9705251', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3881500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3595000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '8249', 'tot_loan_amt': '0', 'scts_evlu_amt': '300500', 'tot_evlu_amt': '10005751', 'nass_amt': '10005751', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299500', 'evlu_amt_smtl_amt': '300500', 'evlu_pfls_smtl_amt': '1000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '5751', 'asst_icdc_erng_rt': '0.05751000'}]
+2026-06-11 14:42:19,513 | INFO | Samsung quantity after buy order: 1
+2026-06-11 14:42:19,514 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 14:52:23,370 | INFO | Current price for 005930: 299500
+2026-06-11 14:52:23,371 | INFO | Current price: 299500
+2026-06-11 14:52:32,382 | INFO | Holdings count: 1
+2026-06-11 14:52:32,383 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9705251', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3881500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3595000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '8249', 'tot_loan_amt': '0', 'scts_evlu_amt': '299500', 'tot_evlu_amt': '10004751', 'nass_amt': '10004751', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299500', 'evlu_amt_smtl_amt': '299500', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4751', 'asst_icdc_erng_rt': '0.04751000'}]
+2026-06-11 14:52:32,383 | INFO | Samsung quantity before order: 1
+2026-06-11 14:52:32,384 | INFO | Adjusted buy price: 298500
+2026-06-11 14:52:32,384 | INFO | Adjusted sell price: 300500
+2026-06-11 14:52:32,384 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 14:52:32,384 | INFO | Sell order request | stock=005930, price=300500, qty=1
+2026-06-11 14:52:37,091 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000033636', 'ORD_TMD': '145237'}}
+2026-06-11 14:52:37,091 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000033636', 'ORD_TMD': '145237'}}
+2026-06-11 14:52:37,092 | INFO | Sell order submitted successfully.
+2026-06-11 14:53:14,058 | INFO | Holdings count: 1
+2026-06-11 14:53:14,058 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9705251', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3881500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3595000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '8249', 'tot_loan_amt': '0', 'scts_evlu_amt': '299000', 'tot_evlu_amt': '10004251', 'nass_amt': '10004251', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299500', 'evlu_amt_smtl_amt': '299000', 'evlu_pfls_smtl_amt': '-500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '4251', 'asst_icdc_erng_rt': '0.04251000'}]
+2026-06-11 14:53:14,058 | INFO | Samsung quantity after sell order: 1
+2026-06-11 14:53:14,059 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 15:03:17,817 | INFO | Current price for 005930: 297750
+2026-06-11 15:03:17,817 | INFO | Current price: 297750
+2026-06-11 15:03:25,806 | INFO | Holdings count: 1
+2026-06-11 15:03:25,807 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9705251', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '3881500', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3595000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '8249', 'tot_loan_amt': '0', 'scts_evlu_amt': '298000', 'tot_evlu_amt': '10003251', 'nass_amt': '10003251', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '299500', 'evlu_amt_smtl_amt': '298000', 'evlu_pfls_smtl_amt': '-1500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3251', 'asst_icdc_erng_rt': '0.03251000'}]
+2026-06-11 15:03:25,807 | INFO | Samsung quantity before order: 1
+2026-06-11 15:03:25,808 | INFO | Adjusted buy price: 296500
+2026-06-11 15:03:25,808 | INFO | Adjusted sell price: 299000
+2026-06-11 15:03:25,808 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 15:03:25,808 | INFO | Sell order request | stock=005930, price=299000, qty=1
+2026-06-11 15:03:29,490 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 15:03:29,491 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 15:03:29,491 | WARNING | Sell order failed or rejected: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 15:03:29,492 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 15:13:34,374 | INFO | Current price for 005930: 297500
+2026-06-11 15:13:34,374 | INFO | Current price: 297500
+2026-06-11 15:13:44,752 | INFO | Holdings count: 1
+2026-06-11 15:13:44,753 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9408711', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '4178000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3595000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '8289', 'tot_loan_amt': '0', 'scts_evlu_amt': '595000', 'tot_evlu_amt': '10003711', 'nass_amt': '10003711', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '596000', 'evlu_amt_smtl_amt': '595000', 'evlu_pfls_smtl_amt': '-1000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3711', 'asst_icdc_erng_rt': '0.03711000'}]
+2026-06-11 15:13:44,753 | INFO | Samsung quantity before order: 2
+2026-06-11 15:13:44,754 | INFO | Adjusted buy price: 296500
+2026-06-11 15:13:44,754 | INFO | Adjusted sell price: 298500
+2026-06-11 15:13:44,754 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 15:13:44,754 | INFO | Sell order request | stock=005930, price=298500, qty=1
+2026-06-11 15:13:45,370 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000035125', 'ORD_TMD': '151345'}}
+2026-06-11 15:13:45,371 | INFO | Sell order response: {'rt_cd': '0', 'msg_cd': '40590000', 'msg1': '모의투자 매도주문이 완료 되었습니다.', 'output': {'KRX_FWDG_ORD_ORGNO': '00950', 'ODNO': '0000035125', 'ORD_TMD': '151345'}}
+2026-06-11 15:13:45,371 | INFO | Sell order submitted successfully.
+2026-06-11 15:14:21,067 | INFO | Holdings count: 1
+2026-06-11 15:14:21,068 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9408711', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '4178000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3595000', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '8289', 'tot_loan_amt': '0', 'scts_evlu_amt': '595000', 'tot_evlu_amt': '10003711', 'nass_amt': '10003711', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '596000', 'evlu_amt_smtl_amt': '595000', 'evlu_pfls_smtl_amt': '-1000', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '3711', 'asst_icdc_erng_rt': '0.03711000'}]
+2026-06-11 15:14:21,068 | INFO | Samsung quantity after sell order: 2
+2026-06-11 15:14:21,068 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 15:24:23,495 | INFO | Current price for 005930: 298500
+2026-06-11 15:24:23,496 | INFO | Current price: 298500
+2026-06-11 15:24:29,328 | INFO | Holdings count: 1
+2026-06-11 15:24:29,329 | INFO | Account summary: [{'dnca_tot_amt': '10000000', 'nxdy_excc_amt': '10000000', 'prvs_rcdl_excc_amt': '9706574', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '4178000', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '3893500', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '8926', 'tot_loan_amt': '0', 'scts_evlu_amt': '298500', 'tot_evlu_amt': '10005074', 'nass_amt': '10005074', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '298000', 'evlu_amt_smtl_amt': '298500', 'evlu_pfls_smtl_amt': '500', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '10000000', 'asst_icdc_amt': '5074', 'asst_icdc_erng_rt': '0.05074000'}]
+2026-06-11 15:24:29,329 | INFO | Samsung quantity before order: 1
+2026-06-11 15:24:29,330 | INFO | Adjusted buy price: 297500
+2026-06-11 15:24:29,330 | INFO | Adjusted sell price: 299500
+2026-06-11 15:24:29,330 | INFO | Already holding Samsung shares. Buy order skipped. Submit sell order only.
+2026-06-11 15:24:29,331 | INFO | Sell order request | stock=005930, price=299500, qty=1
+2026-06-11 15:24:30,558 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 15:24:30,558 | INFO | Sell order response: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 15:24:30,559 | WARNING | Sell order failed or rejected: {'rt_cd': '1', 'msg_cd': '40240000', 'msg1': '모의투자 잔고내역이 없습니다.'}
+2026-06-11 15:24:30,559 | INFO | Waiting 600 seconds before next cycle.
+2026-06-11 15:34:30,560 | INFO | Trading window ended. Auto trader stopped.
